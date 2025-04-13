@@ -1,0 +1,46 @@
+// http://10.20.30.6/api/v1/data
+{
+  "wifi_ssid": "unifi-iot",
+  "wifi_strength": 100,
+  "smr_version": 50,
+  "meter_model": "Sagemcom T210-D ESMR5.0",
+  "unique_id": "4530303438303030303336333333303139",
+  "active_tariff": 1,
+  "total_power_import_kwh": 38058.561,
+  "total_power_import_t1_kwh": 22941.758,
+  "total_power_import_t2_kwh": 15116.803,
+  "total_power_export_kwh": 13209.970,
+  "total_power_export_t1_kwh": 3939.534,
+  "total_power_export_t2_kwh": 9270.436,
+  "active_power_w": 3110.000,
+  "active_power_l1_w": -340.000,
+  "active_power_l2_w": -31.000,
+  "active_power_l3_w": 3482.000,
+  "active_voltage_l1_v": 242.000,
+  "active_voltage_l2_v": 238.000,
+  "active_voltage_l3_v": 235.000,
+  "active_current_a": 16.352,
+  "active_current_l1_a": -1.405,
+  "active_current_l2_a": -0.130,
+  "active_current_l3_a": 14.817,
+  "voltage_sag_l1_count": 13.000,
+  "voltage_sag_l2_count": 13.000,
+  "voltage_sag_l3_count": 19.000,
+  "voltage_swell_l1_count": 0.000,
+  "voltage_swell_l2_count": 0.000,
+  "voltage_swell_l3_count": 0.000,
+  "any_power_fail_count": 106.000,
+  "long_power_fail_count": 35.000,
+  "total_gas_m3": 4581.651,
+  "gas_timestamp": 250413145500,
+  "gas_unique_id": "4730303539303033393233383035323139",
+  "external": [
+    {
+      "unique_id": "4730303539303033393233383035323139",
+      "type": "gas_meter",
+      "timestamp": 250413145500,
+      "value": 4581.651,
+      "unit": "m3"
+    }
+  ]
+}
