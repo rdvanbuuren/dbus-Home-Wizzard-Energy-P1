@@ -157,8 +157,12 @@ class DbusHomeWizardEnergyP1Service:
             self._dbusservice['/Ac/L1/Voltage'] = meter_data['active_voltage_l1_v']
             self._dbusservice['/Ac/L1/Current'] = meter_data['active_current_l1_a']
             self._dbusservice['/Ac/L1/Power'] = meter_data['active_power_l1_w']
-            self._dbusservice['/Ac/L1/Energy/Forward'] = meter_data['total_power_import_kwh']
-            self._dbusservice['/Ac/L1/Energy/Reverse'] = meter_data['total_power_export_kwh']
+            self._dbusservice['/Ac/Energy/Forward'] = meter_data['total_power_import_kwh']
+            self._dbusservice['/Ac/Energy/Reverse'] = meter_data['total_power_export_kwh']
+
+            if phases == '1'
+                self._dbusservice['/Ac/L1/Energy/Forward'] = meter_data['total_power_import_kwh']
+                self._dbusservice['/Ac/L1/Energy/Reverse'] = meter_data['total_power_export_kwh']
     
             #send additional data to DBus for 3 phase system
             if phases == '3':
